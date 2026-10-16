@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 const connection = await mysql.createPool({
   host: "localhost",
   user: "root",
-  password: "13042006@Aa",
+  password: "***",
   database: "sigma_app",
 });
 
